@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hypotenuse</title>
+
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Fun with Triangles</h1>
+      <nav>
+        <a id="angles" href="./angles.html">Is Triangle?</a>
+        <a id="quiz" href="/">Quiz</a>
+        <a class="active" id="hypo" href="./hypotenuse.html">Hypotenuse</a>
+        <a id="area" href="./area.html">Area of Triangle</a>
+      </nav>
+    </header>
+    <main class="container">
+      <h2>Calculate Hypotenuse of a triangle</h2>
+      <form class="quiz-form">
+        <label class="input-label" for="base">
+          <p>Enter base value (a) =</p>
+        </label>
+        <input placeholder="Base" id="base" type="number" class="side-input" />
+        <label class="input-label" for="height">
+          <p>Enter height value (b) =</p>
+        </label>
+        <input
+          placeholder="Height"
+          id="height"
+          type="number"
+          class="side-input"
+        />
+      </form>
+      <button class="btn-check btn-hypo" id="submit-answers-btn">
+        Calculate Hypotenuse
+      </button>
+      <h2>Hypotenuse formula</h2>
+      <h3>√(base² + height²)</h3>
+      <h4 class="output output-hypo"></h4>
+    </main>
+    <footer>
+      <span>
+        <a
+          href="https://www.linkedin.com/in/vivek-web/"
+          rel="noopener"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </span>
+      <span>
+        <a href="https://github.com/simbayp" rel="noopener" target="_blank"
+          >GitHub</a
+        >
+      </span>
+      <span>
+        <a href="https://twitter.com/vivekkushal" rel="noopener" target="_blank"
+          >Twitter</a
+        >
+      </span>
+      <p>Made with ❤️ by Vivek Kushal</p>
+    </footer>
+    <script src="../scripts/hypotenuse.js"></script>
+  </body>
+</html>

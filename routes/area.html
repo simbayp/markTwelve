@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area of Triangle</title>
+
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Fun with Triangles</h1>
+      <nav>
+        <a id="angles" href="./angles.html">Is Triangle?</a>
+        <a id="quiz" href="/">Quiz</a>
+        <a id="hypo" href="./hypotenuse.html">Hypotenuse</a>
+        <a class="active" id="area" href="./area.html">Area of Triangle</a>
+      </nav>
+    </header>
+    <main class="container">
+      <h2>Calculate Area of a triangle</h2>
+      <form class="quiz-form">
+        <label class="input-label" for="side1">
+          <p>Enter first side of a triangle</p>
+        </label>
+        <input
+          placeholder="Side1"
+          id="side1"
+          type="number"
+          class="side-input"
+        />
+        <label class="input-label" for="side2">
+          <p>Enter second side of a triangle</p>
+        </label>
+        <input
+          placeholder="Side2"
+          id="side2"
+          type="number"
+          class="side-input"
+        />
+        <label class="input-label" for="side3">
+          <p>Enter third side of a triangle</p>
+        </label>
+        <input
+          placeholder="Side3"
+          id="side3"
+          type="number"
+          class="side-input"
+        />
+      </form>
+      <button class="btn-check btn-area" id="submit-answers-btn">
+        Calculate
+      </button>
+      <h4 class="output output-area"></h4>
+    </main>
+    <footer>
+      <span>
+        <a
+          href="https://www.linkedin.com/in/vivek-web/"
+          rel="noopener"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </span>
+      <span>
+        <a href="https://github.com/simbayp" rel="noopener" target="_blank"
+          >GitHub</a
+        >
+      </span>
+      <span>
+        <a href="https://twitter.com/vivekkushal" rel="noopener" target="_blank"
+          >Twitter</a
+        >
+      </span>
+      <p>Made with ❤️ by Vivek Kushal</p>
+    </footer>
+    <script src="../scripts/area.js"></script>
+  </body>
+</html>
